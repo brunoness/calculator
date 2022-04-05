@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'CourierNew' ;
+  src: url('./fonts/cour.ttf');
+}
+
+* {
+  font-family: 'CourierNew', monospace;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(to right, rgb(15, 12, 41), rgb(48, 43, 99), rgb(36, 36, 62));
+}
